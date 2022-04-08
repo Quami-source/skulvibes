@@ -1,0 +1,57 @@
+[
+    {
+        "id":1,
+        "username":"kweku",
+        "schoolNickName":"ODASCO",
+        "profile":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2brF2vEaD9_rKwjA7B6ZMB65v6At9J3boPA&usqp=CAU",
+        "time":"2mins",
+        "pic":"https://images.pexels.com/photos/3331062/pexels-photo-3331062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "postText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "comments":"2.5k",
+        "likes":"1.2k"
+    },
+    {
+        "id":2,
+        "username":"kofi",
+        "schoolNickName":"POJOs",
+        "profile":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2brF2vEaD9_rKwjA7B6ZMB65v6At9J3boPA&usqp=CAU",
+        "time":"1h",
+        "pic":"https://images.pexels.com/photos/9215308/pexels-photo-9215308.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "postText":"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "comments":"500",
+        "likes":"100"
+    },
+    {
+        "id":3,
+        "username":"Daniel",
+        "schoolNickName":"AQUINAS",
+        "profile":"https://media.istockphoto.com/photos/emotional-african-american-man-with-african-hairstyle-picture-id1319662868?b=1&k=20&m=1319662868&s=170667a&w=0&h=Z-69EjXWD92ewnRv3NOSKcADIO5ojaOvW7bdUPiFimM=",
+        "time":"3mins",
+        "pic":"https://images.pexels.com/photos/5097418/pexels-photo-5097418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "postText":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "comments":"3.k",
+        "likes":"500"
+    },
+    {
+        "id":4,
+        "username":"kofi",
+        "schoolNickName":"ODASCO",
+        "profile":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2brF2vEaD9_rKwjA7B6ZMB65v6At9J3boPA&usqp=CAU",
+        "time":"3h",
+        "pic":"https://images.pexels.com/photos/11292853/pexels-photo-11292853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "postText":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "comments":"1k",
+        "likes":"10.5k"
+    },
+    {
+        "id":5,
+        "username":"kwame",
+        "schoolNickName":"BLEEO",
+        "profile":"https://t4.ftcdn.net/jpg/01/93/94/77/360_F_193947765_gVGDKOFJlc3ZfM33j4jr7RPc7RE0nBTJ.jpg",
+        "time":"2h",
+        "pic":"https://images.pexels.com/photos/7237616/pexels-photo-7237616.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "postText":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
+        "comments":"100",
+        "likes":"50"
+    }
+]
