@@ -12,6 +12,7 @@ import {
 } from '@expo-google-fonts/poppins';
 import Home from './src/screens/Home';
 import NewText from './src/components/NewText';
+import Chat from './src/screens/Chat'
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -26,7 +27,8 @@ export default function App() {
   }
   return (
     <View style={styles.container} >
-      <Home/>
+      {/* <Home/> */}
+      <Chat/>
       <StatusBar style="auto" />
     </View>
   );
