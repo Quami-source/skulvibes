@@ -4,7 +4,7 @@ import React from 'react'
 import NewText from './NewText'
 import PrimaryBtn from './PrimaryBtn'
 
-const Header = () => {
+const Header = ({title,name}) => {
   return (
     <View style={{marginTop:10,flexDirection:'row',justifyContent:'center',alignItems:'center',paddingHorizontal:20}}>
       <View style={{flex:0.9}}>

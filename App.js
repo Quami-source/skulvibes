@@ -13,6 +13,8 @@ import {
 import Home from './src/screens/Home';
 import NewText from './src/components/NewText';
 import Chat from './src/screens/Chat'
+import Notifications from './src/screens/Notifications';
+import Settings from './src/screens/Settings';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -27,8 +29,10 @@ export default function App() {
   }
   return (
     <View style={styles.container} >
-      {/* <Home/> */}
-      <Chat/>
+      <Home/>
+      {/* <Chat/> */}
+      {/* <Notifications/> */}
+      {/* <Settings/> */}
       <StatusBar style="auto" />
     </View>
   );
