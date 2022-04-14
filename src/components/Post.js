@@ -12,13 +12,13 @@ export default function Post() {
       return(
           <View key={item.id} style={{marginBottom:20}}>
               <View style={{flexDirection:'row',alignItems:'center',}}>
-                <View style={{flex:0.1,width:40,height:40,borderRadius:20,marginHorizontal:10}}>
+                <PrimaryBtn style={{flex:0.1,width:40,height:40,borderRadius:20,marginHorizontal:10}}>
                     <Image resizeMode="cover" style={{width:30,height:30,borderRadius:15}} source={{uri:item.profile}} />
-                </View>
-                <View style={{flexDirection:'row',flex:0.6}}>
+                </PrimaryBtn>
+                <PrimaryBtn onPress={()=> console.log("navigate")} style={{flexDirection:'row',flex:0.6}}>
                     <NewText medium>{item.username}@</NewText>
                     <NewText>{item.schoolNickName}</NewText>
-                </View>
+                </PrimaryBtn>
                 <View style={{flex:0.2}}>
                     <NewText>{item.time}</NewText>
                 </View>
