@@ -4,24 +4,26 @@ import NewText from '../components/NewText'
 import colors from '../constants/color'
 import PrimaryBtn from '../components/PrimaryBtn'
 
-
-export default function Signin() {
+export default function Signup() {
   return (
     <View style={styles.container}>
-      <View style={{flex:0.2, justifyContent:'center',alignItems:'center'}}>
+       <View style={{flex:0.2, justifyContent:'center',alignItems:'center'}}>
         <NewText primary h4 bold>SkulVibes</NewText>
       </View>
       <View style={{flex:0.8,}}>
-        <NewText medium h5 style={{marginBottom:15}}>Login to your Account</NewText>
+        <NewText medium h5 style={{marginBottom:15}}>Create your Account</NewText>
         <View style={styles.input}>
-            <TextInput placeholder='Email' />
+            <TextInput placeholder='Email' textContentType='email' keyboardType="email-address" />
         </View>
         <View style={styles.input}>
-            <TextInput placeholder='Password' />
+            <TextInput placeholder='Password' secureTextEntry={true}  />
+        </View>
+        <View style={styles.input}>
+            <TextInput placeholder='Confirm password' secureTextEntry={true}  />
         </View>
         <View style={{marginTop:40}} >
             <PrimaryBtn style={styles.btn}>
-              <NewText white>Sign in</NewText>
+              <NewText white>Sign up</NewText>
             </PrimaryBtn>
         </View>
         <View style={{marginTop:40,justifyContent:'center',alignItems:'center'}}>
@@ -49,6 +51,7 @@ export default function Signin() {
     </View>
   )
 }
+
 
 const styles = StyleSheet.create({
     container:{
@@ -81,5 +84,3 @@ const styles = StyleSheet.create({
       marginRight:10
     }
 })
-
-//https://cdn-icons.flaticon.com/png/512/3128/premium/3128304.png?token=exp=1649945344~hmac=84e2327f318c10613f8d8c762c14e646

@@ -16,6 +16,7 @@ import Chat from './src/screens/Chat'
 import Notifications from './src/screens/Notifications';
 import Settings from './src/screens/Settings';
 import Signin from './src/screens/Signin';
+import Signup from './src/screens/Signup';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -34,7 +35,8 @@ export default function App() {
       {/* <Chat/> */}
       {/* <Notifications/> */}
       {/* <Settings/> */}
-      <Signin/>
+      {/* <Signin/> */}
+      <Signup/>
       <StatusBar style="auto" />
     </View>
   );
