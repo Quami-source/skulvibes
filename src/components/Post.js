@@ -5,6 +5,7 @@ import NewText from './NewText';
 import PrimaryBtn from './PrimaryBtn'
 import { Entypo,MaterialCommunityIcons,AntDesign } from '@expo/vector-icons';
 
+
 const width = Dimensions.get('screen').width
 
 export default function Post() {

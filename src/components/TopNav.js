@@ -5,17 +5,17 @@ import PrimaryBtn from './PrimaryBtn'
 
 export default function TopNav() {
   return (
-    <View style={{paddingHorizontal:20}}>
-      <ScrollView>
+    <View style={{paddingHorizontal:10,paddingBottom:10}}>
+      <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <View style={{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
                 <PrimaryBtn>
-                    <NewText h5 bold>Discover</NewText>
+                    <NewText h6 bold>Discover</NewText>
+                </PrimaryBtn>
+                <PrimaryBtn style={{marginHorizontal:20}}>
+                    <NewText h6>Trending</NewText>
                 </PrimaryBtn>
                 <PrimaryBtn>
-                    <NewText h5>Trending</NewText>
-                </PrimaryBtn>
-                <PrimaryBtn>
-                    <NewText h5>Upcoming</NewText>
+                    <NewText h6>Upcoming</NewText>
                 </PrimaryBtn>
             </View>
       </ScrollView>
